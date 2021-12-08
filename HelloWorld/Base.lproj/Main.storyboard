@@ -12,40 +12,37 @@
         <scene sceneID="cW1-l8-uJw">
             <objects>
                 <viewController id="ZcL-eg-Iin" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cWW-OH-j0F">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" id="cWW-OH-j0F">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6Oe-Od-WEh">
-                                <rect key="frame" x="40" y="64" width="348" height="808"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Rff-FA-7cm">
+                                <rect key="frame" x="39" y="69" width="350" height="792"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rL3-ma-His">
-                                        <rect key="frame" x="0.0" y="0.0" width="348" height="394"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p11-KR-OjP">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="386"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Iq-QL-SwM">
-                                        <rect key="frame" x="0.0" y="414" width="348" height="394"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWD-UE-zNL">
+                                        <rect key="frame" x="0.0" y="406" width="350" height="386"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="6Oe-Od-WEh" secondAttribute="height" multiplier="15:31" id="ZA9-GZ-XWi"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Efr-NT-Lr2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Oe-Od-WEh" firstAttribute="top" secondItem="Efr-NT-Lr2" secondAttribute="top" constant="20" id="O3n-D2-SEH"/>
-                            <constraint firstItem="Efr-NT-Lr2" firstAttribute="trailing" secondItem="6Oe-Od-WEh" secondAttribute="trailing" constant="40" id="aHw-S8-qhs"/>
-                            <constraint firstItem="6Oe-Od-WEh" firstAttribute="leading" secondItem="Efr-NT-Lr2" secondAttribute="leading" constant="40" id="huI-sr-lT0"/>
-                            <constraint firstItem="Efr-NT-Lr2" firstAttribute="bottom" secondItem="6Oe-Od-WEh" secondAttribute="bottom" constant="20" id="ivF-gs-PE5"/>
+                            <constraint firstItem="Rff-FA-7cm" firstAttribute="top" secondItem="Efr-NT-Lr2" secondAttribute="top" constant="25" id="0eR-p5-Kkx"/>
+                            <constraint firstItem="Rff-FA-7cm" firstAttribute="leading" secondItem="Efr-NT-Lr2" secondAttribute="leading" constant="39" id="5mX-0s-myZ"/>
+                            <constraint firstItem="Efr-NT-Lr2" firstAttribute="bottom" secondItem="Rff-FA-7cm" secondAttribute="bottom" constant="31" id="Mw1-f3-PsU"/>
+                            <constraint firstItem="Efr-NT-Lr2" firstAttribute="trailing" secondItem="Rff-FA-7cm" secondAttribute="trailing" constant="39" id="wfV-Fd-wyf"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pR9-hv-9f1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3863.0769230769229" y="-640.52132701421795"/>
+            <point key="canvasLocation" x="-3863.5514018691588" y="-640.82073434125277"/>
         </scene>
     </scenes>
     <resources>
